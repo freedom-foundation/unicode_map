@@ -4,6 +4,9 @@ Extract the sourcecode of the relevent encoding in order to validate the checksu
 TODO: identify the sourcecode bytecode to glyph map of the utf8 implimentation in the specific libbionic C my android runs
 
 How to get version of UTF8 from libbionic C on android 13?
-I queried the mailing list here https://corp.unicode.org/pipermail/unicode/2024-November/011099.html I received no answer but about 10 pages in replies of nonsense babble which promoted me to reflect on. 
+I queried the mailing list here https://corp.unicode.org/pipermail/unicode/2024-November/011099.html I received no answer but about 10 pages in replies of nonsense babble which prompted me to reflect on.
+
+Perhaps the only thing I really found out by the mailing listvis that one can't simole ask for sourcecode and receive the sourcecode as GPL expects: but didn't I already know this?
+
 reflections on my mailing list query 
 after asking the unicode mailing list ( the new information I gathered from the mailing list is that in liue of their confusion it is apparent there is no verifiable way to confirm the unicode standard is in place on any system ) I had supposed that you would have been able to check the sourcecode ( of an OS on a machine) for conformity to a Unicode standard. for the sourcecode of UTF-8. I come to realise any checksum of even a text file is useless, of even an integrity check of a download, because there is no garuntee the UTF-8 standard is the same between systems. If my OS reads 101 as ABA another system could show 101 as BAB though the checksum should match because it is the same data, and yet because this is bytecode there are further multiple data possibilities to produce 101->ⁿⁿⁿ suppose 11011 and 01010: these two data files produce different checksums but should display the same output as it were intended ABA. This is to say the integrity is meant to be of the content delivered to mrreader, and when using UTF-8 a checksum cannot verify the integrity of text content. 
