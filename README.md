@@ -7,6 +7,26 @@ I queried the mailing list here https://corp.unicode.org/pipermail/unicode/2024-
 for a Reference model I was given this link https://www.unicode.org/versions/Unicode16.0.0/#Components
 <h3>new information I gathered from the mailing list</h2>
 Perhaps the only thing I really found out by the mailing list is that one can't simply ask for sourcecode and receive the sourcecode as GPL expects: but didn't I already know this?
+<h3>new info AOSP</h3>
+ did a little web searching, and I think I can point you to some places 
+where libbionic 
+<https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc> 
+processes code units in UTF-8 form. The source code uses the tags "mb", 
+short for "multi-byte", and "wc", short for "wide character", in the 
+names of functions which operate on UTF-8 code unit data and Unicode 
+scalar values respectively.  Take a look at:
+
+function mbsnrtowcs() 
+<https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc/bionic/wchar.cpp#68>
+
+function mbrtc32() 
+<https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc/bionic/mbrtoc32.cpp#36>
+
+I imagine you will find these unsatisfying. They implement the UTF-8 
+data conversions with no mention of either UTF-8 version or Unicode 
+version. Nor do they mention glyphs, fonts, character to glyph mapping, 
+or any of the other text rendering complexity which it seems you want to 
+characterise.
 
 <h3>reflections on my mailing list query<h3></h3> 
 after asking the unicode mailing list ( the new information I gathered from the mailing list is that in liue of their confusion it is apparent there is no verifiable way to confirm the unicode standard is in place on any system ) I had supposed that you would have been able to check the sourcecode ( of an OS on a machine) for conformity to a Unicode standard. for the sourcecode of UTF-8. I come to (only further confirm) realise any checksum of even a text file is useless, of even an integrity check of a download, because there is no garuntee the UTF-8 standard is the same between systems. 
