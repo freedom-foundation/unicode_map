@@ -27,7 +27,8 @@ data conversions with no mention of either UTF-8 version or Unicode
 version. Nor do they mention glyphs, fonts, character to glyph mapping, 
 or any of the other text rendering complexity which it seems you want to 
 characterise.
-
+<h3>Oren's reference models</h3>
+https://github.com/freedom-foundation/unicode_map/blob/main/convert.c
 <h3>reflections on my mailing list query<h3></h3> 
 after asking the unicode mailing list ( the new information I gathered from the mailing list is that in liue of their confusion it is apparent there is no verifiable way to confirm the unicode standard is in place on any system ) I had supposed that you would have been able to check the sourcecode ( of an OS on a machine) for conformity to a Unicode standard. for the sourcecode of UTF-8. I come to (only further confirm) realise any checksum of even a text file is useless, of even an integrity check of a download, because there is no garuntee the UTF-8 standard is the same between systems. 
 My experience with the mailing list shows the misconceptions of many. Which misconceptions should be solved by ability to speak English. Many have misconceptions about what Text is therefore I explained a continuity of data -> unicode -> glyph -> text. They incessantly argue jargon and get their thoughts and meanings lost in such nonsense none of it can be applicable or made into an application.
