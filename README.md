@@ -3,6 +3,7 @@ Extract the sourcecode of the relevent encoding in order to validate the checksu
 <h1>UTF-8 is a problem.</h1>
 Actually I have no desire for Unicode UTF-8. I was pulled into this because it happens to be what my machine uses. AOSP uses libbionic which only has UTF-8 available as a locale. - I wouldn't need to ask (Where a scalar snake is hiding?) [ in the OS sourcecode ] . ( https://corp.unicode.org/pipermail/unicode/2024-November/011139.html )
 <h2>TODO</h2> Identify ( locate, bookmark ) the sourcecode- bytecode to glyph map, of the UTF-8 implimentation in the specific libbionic C my android runs. Prerequisit: this requires a readable browsable copy of the sourcecode yet importing AOSP into GitHub has failed [android-main-import](https://github.com/freedom-foundation/android-main-import)
+prerequisit: also requires proprietary REPO tool
 <h2>resources</h2>
 Originating concise yet full though simple one line relevent ontopic question: 
 
