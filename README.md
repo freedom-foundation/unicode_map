@@ -7,7 +7,7 @@ Where to get the sourcecode of relevent (version) UTF-8?: in order to checksum t
 
  I queried the mailing list here ( https://corp.unicode.org/pipermail/unicode/2024-November/011099.html ) begun Sat Nov 2 19:42:46 CDT 2024 25 replies from 12 senders. Notice they all instantly pose arguments and personal attacks against me whilst babbling on with conflicting, scattered, and wrong technical jargon. (https://corp.unicode.org/pipermail/unicode/2024-November/011144.html)
  
- I received no answer but about 10 pages in replies of nonsense babble which prompted me to reflect on. "focus on the originating question because as you see I was dumped on with over 5 pages of unrelated and offtopic nonsense in reply to my single line question. " ( https://corp.unicode.org/pipermail/unicode/2024-November/011111.html )
+ I received no answer but about 10 pages in replies of nonsense babble which prompted me to reflect on. "focus on the originating question" Yet, 
 
 " with about 18 pages of replies it is getting hard to track and some mail I couldn't even find before replying, " [ phantom email ] ( https://corp.unicode.org/pipermail/unicode/2024-November/011139.html )
 
