@@ -2,6 +2,7 @@
 Extract the sourcecode of the relevent encoding in order to validate the checksum of ASCII or UTF8 text strings. Relevent encoding here means any number of the versions of unicode UTF8 currently up to  unicode 16.0. The relevent encoding map was called by IBM a codepage this terminology is not in use by unicode however unicode could be seen as a single codepage for the purposes of this repository the map shall be called a "bytecode to glyph map" and bytecode because as with 7bit ASCII the encoding stores the character (seen as glyph) in 8bit (or 16bit and others).
 <h2>TODO</h2>h2> identify the sourcecode bytecode to glyph map of the utf8 implimentation in the specific libbionic C my android runs. Prerequisit: this requires a readable browsable copy of the sourcecode yet importing AOSP into GitHub has failed [here]
 <h2>resources</h2>
+Originating concise yet full though simple one line relevent ontopic question: 
 
 Where to get the sourcecode of relevent (version) UTF-8?: in order to checksum text against the specific encoding map (codepage).
 
