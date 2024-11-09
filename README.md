@@ -43,7 +43,7 @@ characterise.
 <h3>Oren's reference models</h3>
 [convert.c](https://github.com/freedom-foundation/unicode_map/blob/main/convert.c)
 [Conversion_of_utf8_bytecode_to_codepoints.c](https://github.com/freedom-foundation/unicode_map/blob/main/Conversion_of_utf8_bytecode_to_codepoints.c)
-<h3>new info</h3>
+<h3>Hints</h3>
 Hint: " I recommend you to look existing implementations: PGP (and GPG) protocol 
 may give some hints on securely doing checksum of text." ( giacomo )
 <br>
