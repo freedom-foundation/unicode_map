@@ -20,7 +20,7 @@ Perhaps the only thing I really found out by the mailing list is that one can't 
 <h4>Letters of marque and reprisal</h4>
 Here is a prime example of a genuine case for reprisal. "It should be but one doesn't really know because when any buy an android phone it does not come with the sourcecode required to comply with GNU GPL and if one asks they would only point at AOSP on Google's website as if that was compliance: it is not. As I said in a previous post "with slight assumption" that the source on Google's site was used to build my machine." ( https://corp.unicode.org/pipermail/unicode/2024-November/011139.html ) This is a prime example of a gunuine case for Letter of reprisal.
 
-<h3>new info AOSP</h3>
+<h3>Best answer</h3> a pointer into where the Unicode standard may be inside AOSP sourcecode. 
 [Jim D.] did a little web searching, and I think I can point you to some places 
 where libbionic 
 <https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc> 
