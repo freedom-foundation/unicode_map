@@ -2,7 +2,7 @@
 Extract the sourcecode of the relevent encoding in order to validate the checksum of ASCII or UTF8 text strings. Relevent encoding here means any number of the versions of unicode UTF8 currently up to  unicode 16.0. The relevent encoding map was called by IBM a codepage this terminology is not in use by unicode however unicode could be seen as a single codepage for the purposes of this repository the map shall be called a "bytecode to glyph map" and bytecode because as with 7bit ASCII the encoding stores the character (seen as glyph) in 8bit (or 16bit and others).
 <h1>UTF-8 is a problem.</h1>
 Actually I have no desire for Unicode UTF-8. I was pulled into this because it happens to be what my machine uses. AOSP uses libbionic which only has UTF-8 available as a locale. - I wouldn't need to ask (Where a scalar snake is hiding?) [ in the OS sourcecode ] . ( https://corp.unicode.org/pipermail/unicode/2024-November/011139.html )
-<h2>TODO</h2>h2> identify the sourcecode bytecode to glyph map of the utf8 implimentation in the specific libbionic C my android runs. Prerequisit: this requires a readable browsable copy of the sourcecode yet importing AOSP into GitHub has failed [here]
+<h2>TODO</h2> Identify ( locate, bookmark ) the sourcecode- bytecode to glyph map, of the UTF-8 implimentation in the specific libbionic C my android runs. Prerequisit: this requires a readable browsable copy of the sourcecode yet importing AOSP into GitHub has failed [android-main-import](https://github.com/freedom-foundation/android-main-import)
 <h2>resources</h2>
 Originating concise yet full though simple one line relevent ontopic question: 
 
