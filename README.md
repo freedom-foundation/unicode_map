@@ -34,7 +34,7 @@ characterise.
 Hint: " I recommend you to look existing implementations: PGP (and GPG) protocol 
 may give some hints on securely doing checksum of text." ( giacomo )
 <br>
-Option: reverse engineering https://en.m.wikipedia.org/wiki/Reverse_engineering Unicode A best option shown from the mailing list  ( https://corp.unicode.org/pipermail/unicode/2024-November/011118.html )
+Option: [Reverse engineering](https://en.m.wikipedia.org/wiki/Reverse_engineering) Unicode. A best option shown from the mailing list  ( https://corp.unicode.org/pipermail/unicode/2024-November/011118.html )
 <h3>reflections on my mailing list query</h3> 
 Awe... this is rather sad . look at them on the unicode mailing list speaking out handicapped thoughts and portraying it as English- they restrict true meanings of English to conform to their handicapped and unperfect concepts.
 After asking the unicode mailing list ( the new information I gathered from the mailing list is that in liue of their confusion it is apparent there is no verifiable way to confirm the unicode standard is in place on any system ) I had supposed that you would have been able to check the sourcecode ( of an OS on a machine) for conformity to a Unicode standard. for the sourcecode of UTF-8. I come to (only further confirm) realise any checksum of even a text file is useless, of even an integrity check of a download, because there is no garuntee the UTF-8 standard is the same between systems. 
