@@ -1,14 +1,14 @@
 # unicode_map
 Extract the sourcecode of the relevent encoding in order to validate the checksum of ASCII or UTF8 text strings. Relevent encoding here means any number of the versions of unicode UTF8 currently up to  unicode 16.0. The relevent encoding map was called by IBM a codepage this terminology is not in use by unicode however unicode could be seen as a single codepage for the purposes of this repository the map shall be called a "bytecode to glyph map" and bytecode because as with 7bit ASCII the encoding stores the character (seen as glyph) in 8bit (or 16bit and others).
-<h2>TODO</h2>h2> identify the sourcecode bytecode to glyph map of the utf8 implimentation in the specific libbionic C my android runs
+<h2>TODO</h2>h2> identify the sourcecode bytecode to glyph map of the utf8 implimentation in the specific libbionic C my android runs.
 <h2>resources</h2>
 How to get version of UTF8 from libbionic C on android 13?
-I queried the mailing list here https://corp.unicode.org/pipermail/unicode/2024-November/011099.html I received no answer but about 10 pages in replies of nonsense babble which prompted me to reflect on.
-for a Reference model I was given this link https://www.unicode.org/versions/Unicode16.0.0/#Components
+I queried the mailing list here https://corp.unicode.org/pipermail/unicode/2024-November/011099.html I received no answer but about 10 pages in replies of nonsense babble which prompted me to reflect on. [UPDATE_COUNTS_HERE]
+For a Reference model I was given this link https://www.unicode.org/versions/Unicode16.0.0/#Components
 <h3>new information I gathered from the mailing list</h2>
-Perhaps the only thing I really found out by the mailing list is that one can't simply ask for sourcecode and receive the sourcecode as GPL expects: but didn't I already know this?
+Perhaps the only thing I really found out by the mailing list is that one can't simply ask for sourcecode and receive the sourcecode as GPL expects: but didn't I already know this? Many of these may be developed into genuine cases for Letters of Marque and reprisal. 
 <h3>new info AOSP</h3>
- did a little web searching, and I think I can point you to some places 
+[Jim D.] did a little web searching, and I think I can point you to some places 
 where libbionic 
 <https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc> 
 processes code units in UTF-8 form. The source code uses the tags "mb", 
